@@ -1,0 +1,9 @@
+# Python 3.10+
+# PySocks — только если TELEGRAM_PROXY=socks5://... Если pip падает с SSLError к pypi.org: другая сеть
+# (раздача с телефона), временно без VPN, или скачайте wheel с другого ПК:
+# https://pypi.org/project/PySocks/#files → PySocks-1.7.1-py3-none-any.whl → pip install путь\к\файлу.whl
+pyTelegramBotAPI>=4.14.0
+requests>=2.28.0
+beautifulsoup4>=4.12.0
+openai>=1.0.0
+python-docx>=1.1.0
